@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   background-image: linear-gradient(to right, #0693d2 ,#06d2c8);
+}
+
+.main {
+    width: 60%;
+    background-color: #bddcef;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    border-radius: 10px 10px;
+
+
+}
+
+.main .add {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.main .add .task {
+    width: 90%;
+    padding: 15px;
+    border: 3px solid #0693d2;
+    border-radius:5px 0 0 5px ;
+    font-size: 15px;
+}
+
+.main .add .boton {
+    width: 10%;
+    background-color: #0693d2;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+
+.learn {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px 0px;
+    color: #086098;
+    font-size: 13px;
+    width: 100%;
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+
+    
+}
+
+
+
+hr {
+    border: none;
+    border-top: 2px solid #63bff7;
+    margin-top: 10px;
+}
+
+.learn1 {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: left;
+    padding: 15px;
+    border: none;
+    background-color: #086098;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn1 i {
+    font-size: 20px;
+}
